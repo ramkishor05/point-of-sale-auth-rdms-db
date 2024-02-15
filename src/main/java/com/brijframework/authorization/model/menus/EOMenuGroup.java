@@ -1,4 +1,4 @@
-package com.brijframwork.authorization.model.menus;
+package com.brijframework.authorization.model.menus;
 
 import java.util.List;
 
@@ -9,7 +9,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
 
-import com.brijframwork.authorization.model.EOEntityObject;
+import com.brijframework.authorization.model.EOEntityObject;
 
 @Entity
 @Table(name = "MENU_GROUP", uniqueConstraints = {@UniqueConstraint(columnNames = { "IDEN_NO" }) })

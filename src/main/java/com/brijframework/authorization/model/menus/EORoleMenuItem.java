@@ -1,5 +1,5 @@
 
-package com.brijframwork.authorization.model.menus;
+package com.brijframework.authorization.model.menus;
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -11,9 +11,9 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
 
-import com.brijframwork.authorization.model.EOEntityObject;
-import com.brijframwork.authorization.model.EOUserRole;
-import com.brijframwork.authorization.model.onboarding.EOUserOnBoarding;
+import com.brijframework.authorization.model.EOEntityObject;
+import com.brijframework.authorization.model.EOUserRole;
+import com.brijframework.authorization.model.onboarding.EOUserOnBoarding;
 
 @Entity
 @Table(name = "ROLE_MENU_ITEM", uniqueConstraints= {

@@ -1,4 +1,4 @@
-package com.brijframwork.authorization.model.onboarding;
+package com.brijframework.authorization.model.onboarding;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -8,9 +8,9 @@ import javax.persistence.PrePersist;
 import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
 
-import com.brijframwork.authorization.model.EOEntityObject;
-import com.brijframwork.authorization.model.EOUserAccount;
-import com.brijframwork.authorization.model.menus.EORoleMenuItem;
+import com.brijframework.authorization.model.EOEntityObject;
+import com.brijframework.authorization.model.EOUserAccount;
+import com.brijframework.authorization.model.menus.EORoleMenuItem;
 
 @Entity
 @Table(name = "USER_ONBOARDING", uniqueConstraints= {@UniqueConstraint(columnNames = { "USER_ACCOUNT_ID", "ROLE_MENU_ITEM_ID" })})

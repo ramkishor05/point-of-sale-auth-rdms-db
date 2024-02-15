@@ -1,4 +1,4 @@
-package com.brijframwork.authorization.model;
+package com.brijframework.authorization.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

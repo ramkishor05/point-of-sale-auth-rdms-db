@@ -1,4 +1,4 @@
-package com.brijframwork.authorization.model;
+package com.brijframework.authorization.model;
 
 import java.util.List;
 
@@ -7,9 +7,9 @@ import javax.persistence.Entity;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
-import com.brijframwork.authorization.model.headers.EORoleHeaderItem;
-import com.brijframwork.authorization.model.menus.EORoleMenuGroup;
-import com.brijframwork.authorization.model.menus.EORoleMenuItem;
+import com.brijframework.authorization.model.headers.EORoleHeaderItem;
+import com.brijframework.authorization.model.menus.EORoleMenuGroup;
+import com.brijframework.authorization.model.menus.EORoleMenuItem;
 
 @Entity
 @Table(name = "USER_ROLE")

@@ -1,5 +1,5 @@
 
-package com.brijframwork.authorization.model;
+package com.brijframework.authorization.model;
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -12,7 +12,7 @@ import javax.persistence.PrePersist;
 import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
 
-import com.brijframwork.authorization.model.onboarding.EOUserOnBoarding;
+import com.brijframework.authorization.model.onboarding.EOUserOnBoarding;
 
 @Entity
 @Table(name = "USER_ACCOUNT", uniqueConstraints= {@UniqueConstraint(columnNames = { "USERNAME" })})
